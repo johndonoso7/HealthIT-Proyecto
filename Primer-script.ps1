@@ -4,9 +4,10 @@ mkdir Pacientes
 mkdir HL7
 
 # Crear archivo de paciente simulado
-echo "Nombre: Juan Pérez" > Pacientes/paciente1.txt
+echo "Nombre: Juan Carlos Pérez" > Pacientes/paciente1.txt
 echo "Edad: 33" >> Pacientes/paciente1.txt
-echo "Estudio: RX de tórax" >> Pacientes/paciente1.txt
+echo "Estudio: RX de torax" >> Pacientes/paciente1.txt
+echo "Genero: Masculino" >> Pacientes/paciente1.txt
 
 # Crear archivo HL7 simulado
 echo "MSH|^~\&|HOSPITAL|123|LAB|456|20250927||ADT^A01|0001|P|2.5" > HL7/mensaje1.hl7
